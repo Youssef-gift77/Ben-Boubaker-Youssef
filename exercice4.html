@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Exercice 4</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+        
+            <legend>Votre identité</legend>
+            <ol>
+            <li><label for="">Nom</label>
+            <input type="text" placeholder="Prénom et nom" required></li>
+
+            <li><label for="">Email</label>
+            <input type="email" placeholder="Exemple@domaine.com" required></li>
+
+            <li><label for="">Téléphone</label>
+            <input type="number" placeholder="par ex:+3375500000000" required></li>
+        </ol>
+        </fieldset>
+        <fieldset>
+        
+            <legend>Adresse de livraison</legend>
+            <ol>
+            <li><label for="">Adresse</label>
+            <textarea></textarea></li>
+            <li><label for="">Code postal</label>
+            <input type="number" required></li>
+            <li><label for="">Pays</label>
+            <input type="text" required></li>
+        </ol>
+        </fieldset>
+        <fieldset>
+            <legend>Informations CB</legend>
+            <ol>
+                <li><fieldset>
+                    <legend>Type de carte bancaire</legend>
+                    <ol>
+                        <li><input type="radio" required>Visa</li>
+                        <li><input type="radio" required>amEx</li>
+                        <li><input type="radio" required>Mastercard</li>
+                    </ol>
+                </li>
+                <li> <label for="">N° carte</label><input type="number" required> </li>
+                <li><label for="">code scuriteé      </label> <input type="password" required></li>
+                <li><label for="">Nom du porteur</label><input type="text" placeholder="Meme nom que sur la carte" required></li>
+                </fieldset>
+            </ol>
+
+        </fieldset>
+        <input type="submit" value="J'achète !">
+    </form>
+</body>
+</html>
